@@ -1,0 +1,203 @@
+TAREFAS:
+
+1. calcular a soma de todas conexões total para cada registo. para cada idade fazer a média e mostrar num gráfico essa informação(x-> idade , y -> soma das conexões totais)
+2. somar para cada registo as conexões que dizem respeito à visão(ver tabela dada no enunciado quais os números correspondentes às conexões entre regiões do cérebro relativas à visão). fazer gráficos adequados para mostrar essa informação
+3. fazer diferentes tipos de balanceamento dos dados: definir as características desse balanceamento e verificar os resultados
+4. data augmentation
+     exemplo: criar registos para idades que não sejam representadas, criando uma função que dada uma idade cria uma matriz de conectividade que correponde à média entre duas matrizes existentes do dataset.
+
+... pensar em outras ideias
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+papers:
+https://www.sciencedirect.com/science/article/pii/S1053811920303189?via%3Dihub
+
+file:///C:/Users/jlame/Downloads/Paper_v19.pdf
+
+file:///C:/Users/jlame/Downloads/fneur-10-01346.pdf
+
+https://www.sciencedirect.com/science/article/pii/S1053811920301415?via%3Dihub
+
+https://www.sciencedirect.com/science/article/pii/S0149763416305176?via%3Dihub
+
+file:///C:/Users/jlame/Downloads/fpsyt-12-626677.pdf
+
+https://arxiv.org/ftp/arxiv/papers/2004/2004.00218.pdf
+
+https://cdn.istanbul.edu.tr/file/JTA6CLJ8T5/D6C8BAC3D49C479A927D9FF5134789A7
+
+http://www.vision.jhu.edu/assets/MahendranDLRV17.pdf
+
+file:///C:/Users/jlame/Downloads/1904.00625.pdf
+
+
+https://github.com/rsyamil/cnn-regression
+
+
+Sex and Age Effects of Functional
+Connectivity in Early Adulthood
+https://www.liebertpub.com/doi/pdf/10.1089/brain.2016.0429
+
+https://watermark.silverchair.com/netn_a_00110.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAp4wggKaBgkqhkiG9w0BBwagggKLMIIChwIBADCCAoAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMgm3IbfxnogThG5URAgEQgIICUXhucSCKq68yNsCtVomQKrKM-t-xaVz2foGzPPR3MyFnbGESTnikMSXYf3kyrfUfmiZSMdVkV75U4rl2Z5BtE8Am8sQxddl6IkyAx4ft7pNrl0-G94Z5xM5XfGZuCBjm8ydXVCu_eQbsMi_JjIqMcUKRCKnM5xFgr-ylRYFfI4c5DNoF5vyNEm7QUj5durhp52bFp82PDeeWROCeJU60K_XCjBjh3P2JspxnTHKJ9mCHTIp5DDfLmDspBSUy5NmbltCNBnPFDULb_lcAvUNz_SWALKeiElQcexaFwbuox1DlwfqQZheBy6xCi9Qw3_NP8qu3oad13d5BqU86NUrRT--sdHpyvU_GxUJmlyid9XEtQhoUK-D4Ec7IhMjGZPDBoeOk-Tn3YFNmPhMMaCfikPXP2A1Je0uqIdyMNCSegdehIWkdW31096x0pPumzEG7W2WztIPcrS6D05rCtt5OEQeOjFPD8LYQ91x9csK3WP2Qa_vTa9TSYDEqZPTzptc8vUFuEtw10dYZ9TvkimMoj150_jb8jMc11eI46rq3eW7-9ikf9GY9kF-3_LMCP6bvSPCpLG6jH0HpWvbB_OTYV2LrBih-Qslp4ilmckN9cL8sDlRh6coLtzYHLE11BEDyUDHJIYnRw1s_UO6KuU_nYDK305E9SXOH7qjGcITYMMXeu0OgdESUEw8dXL_-gTy-35snwIrWUOsASyBe7_A4Ppdv5Rw6cTEV4s6hTkcq9c43FvIPKM4tyA-6iL7o19ZydkC6YGl58Elml90Lsry4yVQo
+
+https://figshare.com/articles/dataset/_Changes_in_Topological_Organization_of_Functional_PET_Brain_Network_with_Normal_Aging_/940811
+
+
+https://watermark.silverchair.com/bhac053.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAuAwggLcBgkqhkiG9w0BBwagggLNMIICyQIBADCCAsIGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMjLts8mAAqb7ib3Q-AgEQgIICkwetrMwYHIlkvcIp3xaMiLvyIDw4KyIpu5tRh9wuoeMivinHSL35A76SGY6w3VMsamq8D6JBXbWuRYWSeiXXl_ce6gO0596WV1FVyrUrhRIPyZNEQq75aJerUDuBlNI6bqR6BGFZb4rYFprsE2tCyp082pyTg_MkFiguVlnveMZM54Cd1GMQhwgGUqMaESvVIdp11pe0mRzxQJy6JiW_2H4I-8gEo0acJeP-dvgSQK-3l8YQuw4uZFI8ZNd4V8etm6bW3-Gmbp6xvGcW2yVMaBPZEwS_IimbZQq6RBnQj9iwVBTgqSDCclh076EHqcWjH9vq10t2hJkpbUY63wYIzIWTvt6e9zOI-DchUYWoB_-wmQr-rNWgHRasWjw-sVNPllUpCsZSk1tvWWCCXtih6HGna1m-sOKCL82r-O1s7guVeGwINI9qmM9Cupyl74j7w6G8CLeWQHow7u4YiotjlK1HMdFM82494VveI8e1U2C7ebq370bt8tOFLT4TEOkIvXC0AiZ9yskqmKbHJQHQjJDa_TcJALXNb4ZIO4aMS8v4gyE3gQ0cHU-aR4Iw8eeWNUkLaVep9VE3My8yEcJuIgXQtpXhH1wGKCcjYn5NXj406Ajky9h8cefOCf5CYA5L8wbcYYqW4veUyJbcCzEwKJnQtrF5CRAKQoMjmNV1k25AhBxjmVplZh47YWEPdf-zj_Je-MIO5q9zXfi8epWF8vPaN671Nvg-gik9YqbWdH5LEoQ9xOMS6u-Ju6yZBGRCDiG5H-9f-NDYqj4YqC3B8VjvqDR7DbQpDiv_mRzhdLeHWdwc7N-vJTPznM9yZxj8tM_qmzpbaamJKoNKhlLP4Ak8foo3kuQOSAJz-WpsUzqfhtHi
+
+definição de matriz de connectividade
+http://fdeligianni.site/brainCon.html
+
+TODO limitar imagem para metade. informação repetida
+TODO fazer ensembling de modelos
+TODO verificar qual a melhor estratificação de idades e os atributos a considerar em cada idade
+TODO balancear o dataset
+TODO usar o random forest regression para este problema
+TODO podem existem erros na imagem dRM. remover outliers com base nisto
+TODO fazer gráfico com os resultados dos erros, erros vs age
+TODO considerar correlações acima de 0.5 ou 0.6~
+TODO pensar como é que funciona o as convulsões neste problema: ver strides > https://medium.com/@_moazzemhossain/easy-way-to-understand-convolutional-neural-network-its-easy-d9b7c0c5adb3
+Acho que se acrescentar mais layers poderá haver uma melhora no MAE
+TODO Experimentar outros modelos, talvez Fully Connected Layer? https://medium.com/@_moazzemhossain/easy-way-to-understand-convolutional-neural-network-its-easy-d9b7c0c5adb3
+TODO data augmentation. valores de idades não existentes no dataset. basear-me na média dos valores de registos de idades mais próximas?
+TODO construir modelo de classificação em vez de regressão?
+TODO arrendondar as predictions para valores inteiros
+TODO tentar perceber porque é que os registos com idades maiores tem erros maiores
+TODO fazer código para criar predictions teste para submissão
+TODO balancear o dataset. escolher apenas um caso para cada idade diferente. ver quais os melhores casos. remover outliers? remover do treino do modelo casos em que o erro dê muito elevado e colocar na data de validação
+TODO considerar também as correlações negativas, apenas estou a considerar correlações positivas
+TODO comparar os dados em que os erros são mais elevados(older)
+TODO experimentar remover esses dados e testar
+TODO colocar todos os atributos pixels na mesma escala entre 0 e 1
+TODO # Colocar a zero todos os valores dos pixels com menos de ~57% de correlação com o atributo age. Fazer para training e test data
+TODO Limpar código e colocar num ficheiro à parte
+TODO filtrar por sex e education limitada e verificar slide da matriz de conectividade
+TODO reoordenar as imagens por idade e fazer os slide da matriz de connectividade com a intenção de verificar um padrão de alteração na matriz de conectividade(ex: à medida que a idade avança certas zonas passam a ter maior conectividade e outras o contrário). Selecionar por sexo para tirar conclusões.
+TODO verificar quais são os casos em que dá maior erro
+TODO Ver se existem outliers: comparar registos com a mesma info mas diferente matrix de connectividade
+TODO identificar diferenças nas matrices de conectividade entre pessoas com a mesma idade mas educação diferente
+TODO utilizar scatter plot e desenhar uma linha que se aproxime aos dados entre os atributos age e uma das colunas do dataset(pixel da imagem)
+TODO mostrar matriz de correlação entre os pixels e o atributo age 
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+DATASET_SIZE
+
+As nossas estratégias foram tomdas considerando o tamanho do dataset 
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+LEARNING_RATE
+
+Learning rates muito altos produzem MAE muito inconstantes. Usar learning_rates < 0.001
+0.01 -> max = 400
+0.001 -> max = 12
+0.0001 -> max = 10
+
+BEST VALUE: 0.00001 
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+LIMIT_CORRELATION_FEATURES
+
+filtrar os pixels a serem considerados que tem correlação mais alta permite menos oscilações nos resultados
+
+Model 4
+
+Testes (MAE):
+________________
+Nmin = 100 (parecido com o melhor)
+Nmax = 8000
+treino - 6
+validation - 5 (max = 7)
+________________
+Nmin = 1000 (muito pior)
+Nmax = 8000
+treino - 6
+validation - ~10
+________________
+Nmin = 150 ( melhor)
+Nmax = 8000
+treino - 5
+validation - 5
+________________
+Nmin = 150 ( melhor 2)
+Nmax = 8050
+treino - 5
+validation - 5 (min = 3)
+________________
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+OUTLIERS
+
+registos com idades altas introduzem muito erro. remover dos dados de treino, considerar nos casos de validação e comparar resultados
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+ROUND_PREDICTIONS
+
+arredondar as idades das predictions para verificar se os resultados são melhores. se o erro for minimo tipo for sempre 0.45 para todos os registos por exemplo, isto quer dizer que arrendondar faça com que o erro passe a ser 0.
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+BALANCED_TARGET
+
+De modo a fazer o tunning dos parâmetros fizemos um partitioning manual que fosse representativo e permitisse fazer um tunning dos parâmetros adequado.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+DROPOUT
+
+Antes de fazer o dropout quantas mais epochs menor o valor do MAE do treino mas a partir de certo pouco o MAE de validação não acompanhava(overfit). Adionei droupout para que as duas curvas andassem lado a lado. o melhor valor
+Melhor valor de droupout foi: 0.1-0.15
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+BEST_CNN_MODEL_ARCHITECTURE
+
+https://www.imaios.com/en/Company/blog/Classification-of-medical-images-the-most-efficient-CNN-architectures
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+BATCH_SIZE
+
+Batch size com valores pequenos adequam-se melhor neste problema BatchSize = 1 é o melhor valor. Valor de 32 dá resultados muito maus
+https://quick-adviser.com/how-big-should-my-batch-size-be/
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+SPARSE_DATASET
+
+Ao anular muitas das features(retirar cor dos pixels) o dataset ficou muito esparso. Redes como CNN não são muito boas para aprender com datasets esparsos. Experimentar outras redes como FCN 
+
+https://actingcolleges.org/library/acting-questions/read/30630-how-does-machine-learning-deal-with-sparse-data
+
+----------------------------------------------------------------------------------------------------------------------------------
+https://www.linkedin.com/pulse/mlp-vs-cnn-rnn-deep-learning-machine-model-momen-negm#:~:text=Both%20MLP%20and%20CNN%20can,will%20perform%20better%20than%20MLP.
+
+Both MLP and CNN can be used for Image classification however MLP takes vector as input and CNN takes tensor as input so CNN can understand spatial relation(relation between nearby pixels of image)between pixels of images better thus for complicated images CNN will perform better than MLP.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Conclusão
+
+Existem mais dados importantes sobre a pessoa que tem influencia na matriz de connectividade
+Aqui queremos melhorar o MAE, mas será que no contexto real poderá fazer mais sentido ter outra métrica. por exemplo se os erros são maiores em pessoas com mais idade e estas tem maior probabilidade de ter problemas mais graves em caso de erro de previsão então o MAE considerando todos os casos não deveria ser a métrica, mas sim o MAE nos casos com mais idade
+relação entre a idade e as regiões(visual,...)
+file:///C:/Users/jlame/Downloads/fnagi-07-00237.pdf
+
+
+
